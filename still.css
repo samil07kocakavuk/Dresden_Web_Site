@@ -6,6 +6,10 @@
     width: auto;
     height: auto;
 }
+.center{
+    text-align: center;
+}
+
 .galeri{
     width: auto;
     height: auto;
@@ -31,12 +35,8 @@
 .bg{
     background-color: azure;
 }
-  .hover:hover {
-    -ms-transform: scale(1.6);
-    -webkit-transform: scale(1.6);
-     transform: scale(1.6); 
-   }
-   article, img {
+
+article, img {
 	position: relative;
 	z-index: 1;
 }
@@ -48,15 +48,34 @@
 }
 @media only screen and (min-width:150px) and (max-width: 1800px){
 .aimg{
-    width:100%;
+    max-width:100%;}
+.center{
+    margin: auto;
+}
 }
 
-}
 footer{
     margin-top: 15px;
-    background-color: gray;
+    background-color: rgb(49, 49, 49);
     color: white;
     text-align: center;
     clear: both;
     padding: 8px;
+}
+iframe{
+    max-width:100%;
+}
+.aw-zoom
+{
+    position: relative;
+
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+}
+.hover:hover {
+    -ms-transform: scale(1.6);
+    -webkit-transform: scale(1.6);
+    transform: scale(1.6); 
 }
